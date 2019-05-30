@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script>
+                let binddata={name:"Raghav"};
+let bindfunction=function(args){
+
+    return(this.name+ " " + args)
+};
+
+let bindresult=bindfunction.bind(binddata);
+console.log(bindresult("Garg"));
+        </script>
+    </body>
+</html>

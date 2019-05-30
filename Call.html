@@ -1,0 +1,14 @@
+<html>
+    <body>
+    <script>
+        let calldata={name:"Raghav"};
+let callfunction=function(args){
+
+    return(this.name+ " " + args)
+};
+
+let callresult=callfunction.call(calldata,"Garg");
+console.log(callresult);
+</script>
+    </body>
+</html>

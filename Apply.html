@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script>
+                let data={name:"Raghav"};
+let applyfunction=function(args){
+
+    return(this.name+ " " + args)
+};
+
+let applyresult=applyfunction.apply(data,["Garg"]);
+console.log(applyresult);
+        </script>
+    </body>
+</html>

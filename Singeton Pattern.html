@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+                var singleton=(function(){
+    let name="Raghav";
+    return{
+        getName : function(){
+            return name;
+        }
+    }
+})();
+
+let res=singleton.getName();
+console.log(res);
+        </script>
+    </body>
+</html>

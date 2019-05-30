@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <script>
+                function Person(first) {
+    this.firstName = first;
+  }
+  
+  Person.prototype.name = function() {
+    return this.firstName;
+  };
+let myName=new Person("Raghav");
+  console.log(myName.name());
+
+  let animal={
+      eats:true
+  };
+
+  let rabbit=Object.create(animal);
+  console.log(rabbit.eats);
+
+  rabbit.jumps = true;
+
+  console.log(rabbit.jumps);
+        </script>
+    </body>
+</html>
